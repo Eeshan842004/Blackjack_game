@@ -110,7 +110,7 @@ void Blackjack::playGame() {
             }
         }
     }
-
+}
 void Blackjack::addPlayerCard() {
     if (phandSize <= 5) {
         phand[phandSize] = 1 + (rand() % 11);
